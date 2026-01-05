@@ -184,8 +184,8 @@ export default function Home() {
                       {biz.longDescription}
                     </p>
                     <div className="grid sm:grid-cols-2 gap-4 mb-12">
-                      {biz.features.map((f, i) => (
-                        <div key={i} className="flex items-center gap-4 p-6 bg-slate-50 dark:bg-slate-800 rounded-[25px] border border-slate-100 dark:border-white/5">
+                      {biz.features.map((f: string | number | bigint | boolean | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<string | number | bigint | boolean | React.ReactPortal | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined> | null | undefined, i: number) => (
+                        <div key={`${biz.id}-feature-${i}`} className="flex items-center gap-4 p-6 bg-slate-50 dark:bg-slate-800 rounded-[25px] border border-slate-100 dark:border-white/5">
                           <div className="w-5 h-5 rounded-full bg-cyan shadow-vibrant flex items-center justify-center text-white font-black text-[8px]">0{i+1}</div>
                           <span className="text-lg font-black italic text-slate-900 dark:text-white tracking-tight">{f}</span>
                         </div>
