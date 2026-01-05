@@ -109,9 +109,9 @@ export default function Home() {
       <div className="relative z-10 w-full overflow-hidden">
         <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
         
-        <div className="pt-[90px] md:pt-[110px]">
+        {/* <div className="pt-[90px] md:pt-[110px]">
           <ProtocolTicker />
-        </div>
+        </div> */}
 
         <main className="w-full flex flex-col">
           <Hero onExplore={scrollTo} />
