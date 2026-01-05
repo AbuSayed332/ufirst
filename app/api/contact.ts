@@ -1,4 +1,4 @@
-import dbConnect from '../lib/mongodb';
+import dbConnect from '../../lib/mongodb';
 import mongoose from 'mongoose';
 
 // Define the Contact Schema

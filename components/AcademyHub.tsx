@@ -156,7 +156,7 @@ export const AcademyHub: React.FC = () => {
                 )}
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
-                  {current.features.map((f, i) => (
+                  {current.features.map((f: string | number | bigint | boolean | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<string | number | bigint | boolean | React.ReactPortal | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined> | null | undefined, i: number) => (
                     <div key={i} className="p-6 bg-slate-50 dark:bg-slate-800/40 rounded-[30px] border border-slate-100 dark:border-white/5">
                       <div className="w-10 h-10 rounded-full bg-cyan/10 text-cyan flex items-center justify-center mb-4 font-black text-sm">0{i+1}</div>
                       <p className="text-[12px] text-slate-900 dark:text-white font-black leading-tight uppercase tracking-tight">{f}</p>
