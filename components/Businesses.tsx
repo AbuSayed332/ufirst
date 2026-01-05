@@ -96,7 +96,7 @@ export const Businesses: React.FC<BusinessesProps> = ({ selectedId, setSelectedI
                       {biz.longDescription}
                     </p>
                     <div className="grid sm:grid-cols-2 gap-8 mb-20">
-                      {biz.features.map((f, i) => (
+                      {biz.features.map((f: string | number | bigint | boolean | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<string | number | bigint | boolean | React.ReactPortal | React.ReactElement<unknown, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined> | null | undefined, i: React.Key | null | undefined) => (
                         <div key={i} className="flex items-center gap-6 p-10 bg-slate-50 dark:bg-slate-800 rounded-[40px] border border-slate-100 dark:border-white/5 group hover:border-brand dark:hover:border-cyan transition-all">
                           <div className="w-4 h-4 rounded-full bg-cyan shadow-vibrant"></div>
                           <span className="text-2xl font-black italic tracking-tighter text-slate-800 dark:text-white transition-colors">{f}</span>

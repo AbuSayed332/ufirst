@@ -1,4 +1,14 @@
-import { Business } from '../types';
+
+
+interface Business {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  color: string;
+  longDescription: string;
+  features: string[];
+}
 
 export const businesses: Business[] = [
   { 
