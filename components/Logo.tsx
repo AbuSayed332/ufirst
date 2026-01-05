@@ -10,7 +10,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', showTagline = true }
     <div className={`flex items-center select-none ${className}`}>
       <div className="relative flex items-center transition-transform duration-500 hover:scale-105">
         <img 
-          src="https://r.jina.ai/i/6ef10931593c4c938a4a5eb23b185077" 
+          src="./assets/images/logo.jpeg" 
           alt="uFirst Limited" 
           className="h-10 md:h-12 w-auto object-contain"
           loading="eager"
