@@ -69,7 +69,7 @@ export const Navbar: React.FC<{ isDarkMode: boolean, toggleDarkMode: () => void 
               {/* DIVISIONS DROPDOWN */}
               <div className="relative group" onMouseEnter={() => setActiveDropdown('divisions')} onMouseLeave={() => setActiveDropdown(null)}>
                 <button className={`flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] transition-all ${activeDropdown === 'divisions' ? 'text-cyan' : 'text-slate-800 dark:text-white/70'}`}>
-                  Divisions <span className={`text-[6px] transition-transform duration-300 ${activeDropdown === 'divisions' ? 'rotate-180' : ''}`}>▼</span>
+                  services <span className={`text-[6px] transition-transform duration-300 ${activeDropdown === 'divisions' ? 'rotate-180' : ''}`}>▼</span>
                 </button>
                 <AnimatePresence>
                   {activeDropdown === 'divisions' && (
