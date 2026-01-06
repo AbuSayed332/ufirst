@@ -10,7 +10,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', showTagline = true }
     <div className={`flex items-center select-none ${className}`}>
       <div className="relative flex items-center transition-transform duration-500 hover:scale-105">
         <img 
-          src="./assets/images/logo.jpeg" 
+          src="./assets/images/logo1.png" 
           alt="uFirst Limited" 
           className="h-10 md:h-12 w-auto object-contain"
           loading="eager"
