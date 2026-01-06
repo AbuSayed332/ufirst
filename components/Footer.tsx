@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({ onTopicClick }) => {
                 </a>
               ))}
             </div>
-
+{/* 
             <div className="pt-6 border-t border-slate-100 dark:border-white/5">
                <div className="flex items-center gap-4 mb-2">
                   <div className="w-6 h-1 bg-cyan rounded-full"></div>
@@ -72,7 +72,7 @@ export const Footer: React.FC<FooterProps> = ({ onTopicClick }) => {
                <div className="text-xl font-display font-black text-slate-900 dark:text-white italic tracking-tighter">
                   Fs Ferdows
                </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="space-y-6 md:space-y-8">
