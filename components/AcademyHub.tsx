@@ -88,13 +88,13 @@ export const AcademyHub: React.FC = () => {
               <span className="w-12 h-2 bg-brand rounded-full"></span>
               <span className="text-cyan font-black text-xs md:text-sm uppercase tracking-[0.4em] md:tracking-[0.8em]">Industrial Masterclass</span>
             </div>
-            <h2 className="text-5xl md:text-8xl font-display font-black text-slate-900 dark:text-white tracking-tighter leading-[0.9] italic">
-              Division <br/><span className="text-vibrant">Mastery.</span>
+            <h2 className="text-[18px] md:text-8xl font-display font-black text-slate-900 dark:text-white tracking-tighter leading-[0.9] italic">
+               Our <span className="text-vibrant">Services.</span>
             </h2>
           </div>
-          <p className="text-lg text-slate-400 font-medium italic border-l-4 border-cyan pl-6 max-w-xs hidden md:block">
+          {/* <p className="text-lg text-slate-400 font-medium italic border-l-4 border-cyan pl-6 max-w-xs hidden md:block">
              "Synchronizing global industrial expertise into a single mastery hub."
-          </p>
+          </p> */}
         </div>
 
         <div className="grid lg:grid-cols-[0.8fr_2.2fr] gap-8 items-start">

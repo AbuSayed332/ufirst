@@ -298,6 +298,10 @@ export default function Home() {
           {/* <section className="w-full max-w-[1600px] mx-auto px-6 py-6 md:py-10 overflow-hidden">
              <PerformanceMatrix />
           </section> */}
+          <SectionWrapper id="academy" className="bg-slate-50 dark:bg-slate-950/20">
+            <AcademyHub />
+          </SectionWrapper>
+
 
           <SectionWrapper id="hub" className="bg-slate-50 dark:bg-slate-950/20">
              <CommandHub onNodeClick={(id) => setSelectedBusinessId(id)} />
@@ -307,10 +311,7 @@ export default function Home() {
              <AgentAutomation />
           </SectionWrapper>
 
-          <SectionWrapper id="academy" className="bg-slate-50 dark:bg-slate-950/20">
-            <AcademyHub />
-          </SectionWrapper>
-
+          
           <SectionWrapper id="leadership" className="bg-white dark:bg-[#020617]">
             <Leadership />
           </SectionWrapper>
