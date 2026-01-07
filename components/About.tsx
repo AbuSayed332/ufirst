@@ -98,7 +98,7 @@ export const About: React.FC = () => {
   const y2 = useTransform(scrollYProgress, [0, 1], [0, 30]);
 
   return (
-    <section id="about" ref={containerRef} className="py-12 md:py-20 relative overflow-hidden bg-white dark:bg-slate-950 transition-colors w-full">
+    <section id="about"  ref={containerRef} className="py-12 md:py-20 relative overflow-hidden bg-white dark:bg-slate-950 transition-colors w-full">
       {/* Background Glow */}
       <div className="absolute top-1/2 left-0 w-[400px] md:w-[600px] h-[400px] md:h-[600px] bg-brand/5 rounded-full blur-[100px] md:blur-[180px] -translate-y-1/2 -translate-x-1/2" />
       
@@ -111,7 +111,7 @@ export const About: React.FC = () => {
                <span className="text-cyan font-black text-[12px] md:text-[14px] uppercase tracking-[0.5em] md:tracking-[0.8em]">About Us</span>
             </div>
             
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-black tracking-tighter leading-[0.95] mb-8 md:mb-10 text-slate-900 dark:text-white italic">
+            <h2 className="text-2xl md:text-2xl lg:text-6xl font-display font-black tracking-tighter leading-[0.95] mb-8 md:mb-10 text-slate-900 dark:text-white italic">
               A Place of <br/><span className="text-vibrant">Excellence.</span>
             </h2>
             
